@@ -52,4 +52,3 @@ If you'd like to contribute to the project, please follow these steps:
 ## License
 
 MIT License
-``` 
