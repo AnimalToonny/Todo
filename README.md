@@ -7,8 +7,6 @@ It allows users to create, edit, and delete tasks, as well as view a list of cur
 
 ## Technologies
 
-- **name:** description
-
 ## Installation
 
 1. **Clone the repository:**
