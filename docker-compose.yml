@@ -1,0 +1,19 @@
+services:
+  postgres:
+    image: postgres:latest # Используйте последнюю версию PostgreSQL
+    environment:
+      POSTGRES_USER: TodoAdmin  # Замените на ваше имя пользователя PostgreSQL
+      POSTGRES_PASSWORD: 874g78873g  # Замените на ваш пароль PostgreSQL
+      POSTGRES_DB: TodoDB  # Замените на имя вашей базы данных
+    ports:
+      - "5432:5432"  # Проброс порта PostgreSQL на хост-машину
+
+  todo_app:
+    build: .  # Сборка образа вашего приложения из текущего директория
+    ports:
+      - "8080:8080"  # Проброс порта вашего приложения на хост-машину
+    depends_on:
+      - postgres  # Зависимость от сервиса postgres
+    environment:
+      ConnectionStrings__DefaultConnection: "Host=postgres;Database=TodoDB;Username=TodoAdmin;Password=874g78873g;"  # Строка подключения к PostgreSQL
+
