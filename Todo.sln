@@ -1,8 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Todo", "Todo\Todo.csproj", "{C9D1108C-2800-4A6A-AAA9-199C64EAF854}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoDomain", "TodoDomain\TodoDomain.csproj", "{C9D1108C-2800-4A6A-AAA9-199C64EAF854}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Todo.Infrastructure", "Todo.Infrastructure\Todo.Infrastructure.csproj", "{46B0216E-6F4C-4904-B9CC-1D9AA0514967}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Todo.Application", "Todo.Application\Todo.Application.csproj", "{C7324381-473C-45D9-B142-B83FBE024B73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Todo.Presentation", "Todo.Presentation\Todo.Presentation.csproj", "{B3969945-FA95-4C12-B3DF-09EB4DC9091A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +22,13 @@ Global
 		{46B0216E-6F4C-4904-B9CC-1D9AA0514967}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46B0216E-6F4C-4904-B9CC-1D9AA0514967}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46B0216E-6F4C-4904-B9CC-1D9AA0514967}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7324381-473C-45D9-B142-B83FBE024B73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7324381-473C-45D9-B142-B83FBE024B73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7324381-473C-45D9-B142-B83FBE024B73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7324381-473C-45D9-B142-B83FBE024B73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3969945-FA95-4C12-B3DF-09EB4DC9091A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3969945-FA95-4C12-B3DF-09EB4DC9091A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3969945-FA95-4C12-B3DF-09EB4DC9091A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3969945-FA95-4C12-B3DF-09EB4DC9091A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
