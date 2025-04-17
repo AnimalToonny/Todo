@@ -10,11 +10,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66e54918-395a-4283-a9c5-c27b27ab3206" name="Changes" comment="" />
+    <list default="true" id="66e54918-395a-4283-a9c5-c27b27ab3206" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Todo/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Todo/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Todo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Todo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Todo.Application/TodoService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Todo.Application/TodoService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Todo.Infrastructure/TaskEntityDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Todo.Infrastructure/TaskEntityDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Todo.Infrastructure/Todo.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Todo.Infrastructure/Todo.Infrastructure.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Todo.Presentation/TodoController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Todo.Presentation/TodoController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Todo.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Todo.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Todo/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Todo/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Todo/Todo.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Todo/Todo.csproj" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DpaMonitoringSettings">
+    <option name="firstShow" value="false" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -23,6 +36,28 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AnimalToonny&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/AnimalToonny/Todo.git&quot;,
+    &quot;accountId&quot;: &quot;0978e7e7-93e5-46f9-b8fd-1b979c23b4d4&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/533e65d7e1d3ab33a791a6bb1a1ecf0d06cc9b38761b9465fc6c2554a77ecb6/MvcServiceCollectionExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -33,7 +68,10 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.Todo: http.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -114,6 +152,12 @@
       <option name="presentableId" value="Default" />
       <updated>1744289050990</updated>
       <workItem from="1744289052192" duration="17052000" />
+      <workItem from="1744621803058" duration="9336000" />
+      <workItem from="1744719610132" duration="1478000" />
+      <workItem from="1744721115127" duration="8935000" />
+      <workItem from="1744812074584" duration="4215000" />
+      <workItem from="1744822015647" duration="10000" />
+      <workItem from="1744880911811" duration="5257000" />
     </task>
     <servers />
   </component>

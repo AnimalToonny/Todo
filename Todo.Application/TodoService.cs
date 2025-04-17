@@ -22,12 +22,12 @@ public class TodoService(ITaskEntityRepository todoRepository)
         return task;
     }
     
-    public TaskEntity? UpdateTaskById(int id, string title, bool itemIsCompleted)
+    public TaskEntity? UpdateTaskById((int id, string title, bool itemIsCompleted) dto)
     {
-        var task = todoRepository.GetById(id);
+        var task = todoRepository.GetById(dto.id);
         if (task == null) return null;
 
-        task.Title = title;
+        task.Title = dto.title;
         var updatedTask = todoRepository.Update(task);
         return updatedTask;
     }

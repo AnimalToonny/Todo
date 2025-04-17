@@ -1,6 +1,13 @@
-﻿namespace Todo.Infrastructure;
+﻿using Microsoft.EntityFrameworkCore;
 
-public class TaskEntityDbContext
+namespace Todo.Infrastructure;
+
+public class TaskEntityDbContext : DbContext
 {
-    
+    public TaskEntityDbContext(DbContextOptions<TaskEntityDbContext> options)
+        : base(options)
+    {
+    }
+
+ //   public DbSet<TaskEntity> Tasks { get; set; }
 }
